@@ -11,3 +11,10 @@ test code to verify those.
 3. Code has to be submitted in your github repository (share the repo link).
 4. Showcase a code pattern/construct that is used (optional, good to have) as
 part of README.md.
+
+
+SOLUTION : 
+
+1. create a dataframe with the log file that has both eater_id and foodmenu_id 
+2. if there are any duplicates found in both the columns throw error 
+3. Else group by foodmenu_id and get the counts of eater_id and print the top 3 records
